@@ -1,2 +1,0 @@
-# newGitTest
-Just to test
