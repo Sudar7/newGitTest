@@ -1,5 +1,8 @@
 ! version = 2.0
 
+! sub whats     = what is
+! sub what's    = what is
+
 + hello
 - hello, what is your name?
 
@@ -27,3 +30,12 @@
 
 + where are you  
 - Cloud nine 'state auto servers'
+
++ how will you help me
+- I'm here for technical help, nerd! that's what i'm called!.
+
++ how will you help me in real time
+- My developer is currently working on it ask him!
+
++ what is your name 
+- I'm Smart
