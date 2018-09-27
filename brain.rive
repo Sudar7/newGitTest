@@ -42,3 +42,6 @@
 
 + google *
 - I've found something on google.. Check this out!: <a href="http://google.com/search?q=<star>" target="_blank""><star></a>
+
++ tell me a joke
+- <call> joke </call>
