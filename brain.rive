@@ -13,7 +13,7 @@
 	var jokes = Http.responseText
 	return jokes
   
-  });
+  };
 
 < object
 
