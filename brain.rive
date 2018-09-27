@@ -3,6 +3,20 @@
 ! sub whats     = what is
 ! sub what's    = what is
 
+> object joke javascript
+
+  const Http = new XMLHttpRequest();
+	const url = "http://api.icndb.com/jokes/random";
+	Http.open("GET", url);
+	Http.send();
+	Http.onreadystatechange=(e)=>{
+	var jokes = Http.responseText
+	return jokes
+  
+  });
+
+< object
+
 + hello
 - hello, what is your name?
 
