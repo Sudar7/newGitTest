@@ -55,6 +55,12 @@
 + what is your name 
 - I'm Smart
 
++ encode * in md5
+- "<star>" in MD5 is: <call>encode md5 <star></call>
+
++ encode * in base64
+- "<star>" in Base64 is: <call>encode base64 <star></call>
+
 + google *
 - I've found something on google.. Check this out!: <a href="http://google.com/search?q=<star>" target="_blank""><star></a>
 
