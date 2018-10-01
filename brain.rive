@@ -69,3 +69,6 @@
     var mood = rs.getUservar(rs.currentUser(), "mood");
     return mood !== "undefined" ? mood : "unknown";
 < object
+
++ test
+- <call>makeJoke</call>
