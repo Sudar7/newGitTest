@@ -3,19 +3,8 @@
 ! sub whats     = what is
 ! sub what's    = what is
 
-> object encode perl
-	my ($rs,$method,@args) = @_;
-	my $msg = join(" ",@args);
-
-	use Digest::MD5 qw(md5_hex);
-	use MIME::Base64 qw(encode_base64);
-
-	if ($method eq "md5") {
-		return md5_hex($msg);
-	}
-	else {
-		return encode_base64($msg);
-	}
+> object testing javascript
+	return "Im maxed out"
 < object
 
 + hello
@@ -54,12 +43,6 @@
 
 + what is your name 
 - I'm Smart
-
-+ encode * in md5
-- "<star>" in MD5 is: <call>encode md5 <star></call>
-
-+ encode * in base64
-- "<star>" in Base64 is: <call>encode base64 <star></call>
 
 + google *
 - I've found something on google.. Check this out!: <a href="http://google.com/search?q=<star>" target="_blank""><star></a>
