@@ -5,7 +5,13 @@
 
 > object testing javascript
 	
-	return "Hello"
+	return new Promise(function(resolve, reject) {
+    // do something async
+    setTimeout(function() {
+        resolve("here is the reply!");
+    }, 1000);
+    // reject("an error reply instead on error");
+});
 	
 	
 < object
