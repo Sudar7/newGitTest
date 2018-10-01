@@ -14,7 +14,7 @@
 
  	 if (request.status >= 200 && request.status < 400) {
    	 data.forEach(movie => {
-   	 retun (movie.title);
+   	 return (movie.title);
     	});
  	 } else {
    	 console.log('error');
