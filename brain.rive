@@ -11,7 +11,7 @@
 	Http.send();
 	Http.onreadystatechange=(e)=>{
 	var jokes = Http.responseText
-	return jokes.value.joke
+	return jokes.type
   
   };
 
