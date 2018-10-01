@@ -3,16 +3,20 @@
 ! sub whats     = what is
 ! sub what's    = what is
 
-> object testing javascript
-	const Http = new XMLHttpRequest();
-	const url='https://geek-jokes.sameerkumar.website/api';
-	Http.open("GET", url);
-	Http.send();
-	Http.onreadystatechange=(e)=>{
-	console.log(Http.responseText)
+> object encode perl
+	my ($rs,$method,@args) = @_;
+	my $msg = join(" ",@args);
+
+	use Digest::MD5 qw(md5_hex);
+	use MIME::Base64 qw(encode_base64);
+
+	if ($method eq "md5") {
+		return md5_hex($msg);
+	}
+	else {
+		return encode_base64($msg);
 	}
 < object
-
 
 + hello
 - hello, what is your name?
