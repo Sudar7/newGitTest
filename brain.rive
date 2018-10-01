@@ -5,7 +5,7 @@
 
 > object testing javascript
 	var request = new XMLHttpRequest();
-
+	return "Hello"
 	
 	
 < object
