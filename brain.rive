@@ -4,7 +4,10 @@
 ! sub what's    = what is
 
 > object testing javascript
-	return "Im maxed out"
+	function joke(){
+		return "Im naked"
+	}
+	return joke()
 < object
 
 + hello
