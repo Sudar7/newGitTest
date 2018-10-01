@@ -52,3 +52,14 @@
 
 + tell me a joke
 - <call> testing </call>
+
++ i am (happy|sad)
+- <set mood=<star>>I see.
+
++ what mood am i in
+- Your current mood is: <call>coolfunc</call>
+
+> object coolfunc javascript
+    var mood = rs.getUservar(rs.currentUser(), "mood");
+    return mood !== "undefined" ? mood : "unknown";
+< object
