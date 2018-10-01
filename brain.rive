@@ -4,10 +4,22 @@
 ! sub what's    = what is
 
 > object testing javascript
-	function joke(){
-		return "Im naked"
+	var request = new XMLHttpRequest();
+
+	request.open('GET', 'https://ghibliapi.herokuapp.com/films', true);
+	request.onload = function () {
+
+ 	 // Begin accessing JSON data here
+ 	 var data = JSON.parse(this.response);
+
+ 	 if (request.status >= 200 && request.status < 400) {
+   	 data.forEach(movie => {
+   	 retun (movie.title);
+    	});
+ 	 } else {
+   	 console.log('error');
+  	}
 	}
-	return joke()
 < object
 
 + hello
