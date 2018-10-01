@@ -3,19 +3,13 @@
 ! sub whats     = what is
 ! sub what's    = what is
 
-> object joke javascript
-
-  const Http = new XMLHttpRequest();
-	const url = "http://api.icndb.com/jokes/random";
-	Http.open("GET", url);
-	Http.send();
-	Http.onreadystatechange=(e)=>{
-	var jokes = Http.responseText
-	return "Found"
-  
-  };
-
+> object testing javascript
+	var w = screen.width;
+	var h = screen.height;
+	var dim = w + "x" + h;
+	return dim;
 < object
+
 
 + hello
 - hello, what is your name?
@@ -58,4 +52,4 @@
 - I've found something on google.. Check this out!: <a href="http://google.com/search?q=<star>" target="_blank""><star></a>
 
 + tell me a joke
-- <call> joke </call>
+- <call> testing </call>
