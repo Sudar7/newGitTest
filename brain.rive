@@ -4,10 +4,13 @@
 ! sub what's    = what is
 
 > object testing javascript
-	var w = screen.width;
-	var h = screen.height;
-	var dim = w + "x" + h;
-	return dim;
+	const Http = new XMLHttpRequest();
+	const url='https://geek-jokes.sameerkumar.website/api';
+	Http.open("GET", url);
+	Http.send();
+	Http.onreadystatechange=(e)=>{
+	console.log(Http.responseText)
+	}
 < object
 
 
