@@ -4,7 +4,7 @@
 ! sub what's    = what is
 
 > object testing javascript
-	var request = new XMLHttpRequest();
+	
 	return "Hello"
 	
 	
