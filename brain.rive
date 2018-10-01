@@ -3,7 +3,7 @@
 ! sub whats     = what is
 ! sub what's    = what is
 
-> object test javascript
+> object makeJoke javascript
 	
 	return new Promise(function(resolve, reject) {
     // do something async
